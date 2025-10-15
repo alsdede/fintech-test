@@ -1,6 +1,6 @@
 import '@jest/globals';
-import '@testing-library/react-native';
 import '@testing-library/jest-native/extend-expect';
+import '@testing-library/react-native';
 
 // default mock to userColorScheme
 jest.mock('react-native/Libraries/Utilities/useColorScheme', () => ({
